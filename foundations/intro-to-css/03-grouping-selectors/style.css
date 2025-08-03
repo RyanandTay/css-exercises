@@ -1,0 +1,16 @@
+/* font styling is shared between the two elements */
+.element1,
+.element2 {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* the background and text color are different for each element so two class selectors are used */
+.element1 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.element2 {
+    background-color: #d1e823;
+}
