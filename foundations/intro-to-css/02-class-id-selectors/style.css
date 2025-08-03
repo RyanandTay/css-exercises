@@ -1,0 +1,20 @@
+.oddman {
+    background-color: rgb(232, 99, 99);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.oddman.bigman {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#solo {
+    color: rgb(66, 78, 208);    
+    font-size: 36px;
+}
+
+#solo2 {
+    background-color: rgb(135, 228, 116);
+    font-size: 24px;
+    font-weight: bold;
+}
