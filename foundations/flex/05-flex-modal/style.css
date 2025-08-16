@@ -20,13 +20,35 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  margin-left: 18px;
+}
+
+.text {
+  margin-bottom: 18px;
+}
+
+
+.header {
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 18px;
+
 }
 
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
+  background: pink;
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -34,6 +56,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+
 
 .close-button {
   background: #eee;
